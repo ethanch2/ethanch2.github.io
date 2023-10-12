@@ -295,6 +295,28 @@ body {
     display: inline-flex;
 }
 
+.leftfootercontainer{
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 24px; 
+    display: inline-flex;
+}
+
+.iconflex{
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 12px; 
+    display: inline-flex;
+}
+
+.infoflex{
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 40px; 
+    display: inline-flex;
+}
+
 .iconcontainer{
     width: 26px; 
     height: 26px; 
@@ -305,6 +327,14 @@ body {
     align-items: flex-start; 
     gap: 10px; 
     display: flex;
+}
+
+.middlefootercontainer{
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 24px; 
+    display: inline-flex;
 }
 
 h1 {
