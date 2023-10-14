@@ -21,11 +21,9 @@ body {
     width: 1280px;
     position: fixed;
     padding-top: 24px; 
-    padding-bottom: 24px;
     justify-content: space-between; 
     align-items: center; 
     display: inline-flex;
-    background: rgba(255, 255, 255, 0.5); 
     backdrop-filter: blur(2px);
   }
 
@@ -337,6 +335,118 @@ body {
     display: inline-flex;
 }
 
+.inputfields{
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 8px; 
+    display: inline-flex;
+}
+
+.input1{
+    height: 4px; 
+    padding-left: 8px;
+    padding-right: 80px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 4px; 
+    border: 1px #C0C0C0 solid; 
+    justify-content: flex-start; 
+    align-items: center; 
+    display: flex;
+}
+
+.input2{
+    width: 84px; 
+    padding: 10px; 
+    background: #EFDFA7; 
+    border-radius: 4px; 
+    justify-content: center; 
+    align-items: center;
+    gap: 10px; 
+    display: flex
+}
+
+.menucontainer{
+    width: 1280px;
+    padding-top: 120px;  
+    padding-bottom: 120px;
+    flex-direction: column; 
+    justify-content: flex-start;
+    align-items: center; 
+    gap: 32px; 
+    display: inline-flex;
+}
+
+.menusubcontainer{
+    align-self: stretch; 
+    justify-content: center; 
+    align-items: flex-start; 
+    gap: 24px; 
+    display: inline-flex;
+}
+
+.leftcol{
+    flex: 1 1 0; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: center; 
+    gap: 24px; 
+    display: inline-flex;
+}
+
+.menuitem{
+    align-self: stretch; 
+    padding: 32px; 
+    background: #4B4B4B; 
+    border-radius: 12px; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 16px; 
+    display: flex;
+}
+
+.rightcol{
+    width: 750px; 
+    align-self: stretch; 
+    padding: 32px; 
+    background: #F2F2EA; 
+    border-radius: 12px; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 64px; 
+    display: inline-flex;
+}
+
+.menuitems{
+    align-self: stretch; 
+    height: 754px; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 20px; 
+    display: flex;
+}
+
+.itemalign{
+    align-self: stretch; 
+    padding-bottom: 20px; 
+    border-bottom: 1px #C0C0C0 solid; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 100px; 
+    display: inline-flex;
+}
+
+.itemstyle{
+    flex: 1 1 0; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 8px; 
+    display: inline-flex;
+}
+
 h1 {
     font-size: 80px;
     font-style: normal;
@@ -411,6 +521,10 @@ p3 {
 #darkmode{
     background-color: #4B4B4B;
     color: #F8F6EF;
+}
+
+#lightmode{
+    background-color: #F2F2EA;
 }
 
 #icon{
