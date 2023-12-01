@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Oxygen+Mono&display=swap" rel="stylesheet">
+    <script src="myscript.js"></script>
+
+</head> 
+<body>
+    <img id="failureImage" style="position: absolute; top: 50%; left: 50%; right: 50%; bottom: 50%; transform: scale(0.01); -webkit-transform: scale(0.01);" src="img/oldBluhdwithtext.png">
+    <div class="top-bar">
+        <div id="top-logo">
+            <img id="theEllipse" src="img/Ellipse 7.png">
+            <h4>Intercured</h4>
+        </div>
+    </div>
+
+    
+    <div class="thecontainer">
+        <div class="theFullQuestion">
+            <div class="theQuestion">
+                <h4 class="questioning">How long have you been experiencing the discomfort?</h4>
+            </div>
+            <div class="underTheQuestion">
+                <div class="answerS">
+                    <div class="answer">
+                        <p class="eighteenpx">Less than 24 hours.</p>
+                    </div>
+                    <div class="answer">
+                        <p class="eighteenpx">1-2 days.</p>
+                    </div>
+                    <div class="answer">
+                        <p class="eighteenpx">3-7 days.</p>
+                    </div>
+                    <div class="answer">
+                        <p class="eighteenpx">More than 7 days.</p>
+                    </div>
+                </div>
+                <div onclick="fixInner()" class="next">
+                    <p class="fourteenpx">Next</p>
+                </div>
+                <div id="progressbar">
+                    <div id="fillProgressBarFailure">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
